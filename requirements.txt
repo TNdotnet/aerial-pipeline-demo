@@ -1,0 +1,2 @@
+# Demo-only placeholder.
+# Real project depends on computer-vision and geospatial libraries.

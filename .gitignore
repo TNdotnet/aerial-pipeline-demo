@@ -1,0 +1,26 @@
+# Python junk
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# Data / outputs – nothing here in the demo, but good practice
+raw/
+tiles/
+labels/
+detections/
+exports/
+
+# Raster, archives 
+*.aux
+*.xml
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
