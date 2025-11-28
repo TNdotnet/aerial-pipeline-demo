@@ -78,3 +78,22 @@ So:
 - For now the **real geospatial logic, full automation, and production code** stay private.
 
 
+## Demo pipeline overview
+
+```mermaid
+flowchart LR
+    source[Raw input]
+    demo2[demo2.py – turn raw into ready data]
+    working[Working data for labeling]
+
+    demo3_label[demo3.py – labels & dataset layout]
+    train[Train model (outside this demo)]
+    demo4[demo4.py – detections & summary]
+    snowball[demo3.py – add labels from detections]
+
+    demo1[demo1.py – layout + logging helper]
+
+    source --> demo2 --> working --> demo3_label --> train --> demo4 --> snowball --> demo3_label
+    demo1 --- source
+    demo1 --- working
+    demo1 --- demo3_label
