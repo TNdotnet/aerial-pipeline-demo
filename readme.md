@@ -100,9 +100,6 @@ flowchart LR
 
 ## Images
 
-![Setup]
-(img/1.png)
-![Process]
-(img/2.png)
-![Use cases (New Construction and/or additions of real estate)]
-(img/3.png)
+![Setup](img/1.png)
+![Process](img/2.png)
+![Use cases (New Construction and/or additions of real estate)](img/3.png)
